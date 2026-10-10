@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="20IjhCpDmQIA_87mO2Vu">
+    <mxGraphModel dx="1022" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pItQ8cueypuP30RyoKBg-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+          <mxGeometry height="220" width="220" x="330" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pItQ8cueypuP30RyoKBg-2" parent="pItQ8cueypuP30RyoKBg-1" style="text;strokeColor=#000066;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&#xa;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;id &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Long&#xa;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;name &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&#xa;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;price &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;double&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="78" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pItQ8cueypuP30RyoKBg-3" parent="pItQ8cueypuP30RyoKBg-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;Product()&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;Product(id &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Long, &lt;/span&gt;&lt;span&gt;name &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String, &lt;/span&gt;&lt;span&gt;price &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;double)&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getId() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Long&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getName() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getPrice() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="116" width="220" y="104" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

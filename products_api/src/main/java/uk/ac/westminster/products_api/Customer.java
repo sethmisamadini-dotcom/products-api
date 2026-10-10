@@ -2,6 +2,9 @@ package uk.ac.westminster.products_api;
 
 public class Customer {
 
+    public Customer(Long id, String adaLovelace, String mail, Address address) {
+    }
+
     public static class customer {
         private Long id;
         private String name;

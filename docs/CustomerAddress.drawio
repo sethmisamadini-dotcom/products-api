@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="g7nxcs5JnEvzMEyEs8EU">
+    <mxGraphModel dx="1022" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="260" width="160" x="80" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-2" parent="mxX_QNwprhtxFxFU_G_r-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div class=&quot;S6IMGG_Divider&quot;&gt;&lt;/div&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;id &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Long&lt;br/&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;name &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;email &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;address &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Address&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="87" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-3" parent="mxX_QNwprhtxFxFU_G_r-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="113" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-4" parent="mxX_QNwprhtxFxFU_G_r-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;Customer()&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;Customer(id &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Long, &lt;/span&gt;&lt;span&gt;name &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String, &lt;/span&gt;&lt;span&gt;email &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String, &lt;/span&gt;&lt;span&gt;address &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Address)&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getId() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Long&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getName() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getEmail() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getAddress() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Address&lt;/span&gt;" vertex="1">
+          <mxGeometry height="139" width="160" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: 400;&quot;&gt;Address&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="160" x="400" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-11" parent="mxX_QNwprhtxFxFU_G_r-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text PDq2pG_selectionAnchorContainer&quot;&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;street &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;city &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;postcode &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;S6IMGG_Divider&quot;&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-12" parent="mxX_QNwprhtxFxFU_G_r-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-13" parent="mxX_QNwprhtxFxFU_G_r-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;Address()&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;Address(street &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String, &lt;/span&gt;&lt;span&gt;city &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String, &lt;/span&gt;&lt;span&gt;postcode &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String)&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getStreet() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getCity() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;br/&gt;&lt;/span&gt;&lt;span&gt;+ &lt;/span&gt;&lt;span&gt;getPostcode() &lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;String&lt;/span&gt;" vertex="1">
+          <mxGeometry height="142" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="mxX_QNwprhtxFxFU_G_r-14" edge="1" parent="1" source="mxX_QNwprhtxFxFU_G_r-4" style="endArrow=classic;html=1;rounded=0;entryX=-0.017;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;" target="mxX_QNwprhtxFxFU_G_r-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="300" as="sourcePoint" />
+            <mxPoint x="340" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
