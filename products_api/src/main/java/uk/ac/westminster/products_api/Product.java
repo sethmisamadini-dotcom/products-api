@@ -4,6 +4,19 @@ package uk.ac.westminster.products_api;public class Product {
     private double price;
     public
     Product() {}
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public Product(Long id, String name, double price) {
         this.id = id;
         this.name = name;
